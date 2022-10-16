@@ -26,7 +26,7 @@ body * {
 }
 
 main {
-  padding-block: 2rem;
+  padding-block: 1rem;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -105,7 +105,7 @@ a {
 }
 
 /**USER-ITERACTIONS**/
-.content__perfil:hover{
+.content__perfil:hover {
   transition: 350ms all;
   transform: scale(1.1);
 }
@@ -113,7 +113,7 @@ a {
 .navigation__item:hover {
   transform: scale(1.1);
   background-color: var(--main-color);
-  transition: 350ms all;;
+  transition: 350ms all;
 }
 .navigation__item:hover .navigation__link {
   color: var(--body-bg-color);
